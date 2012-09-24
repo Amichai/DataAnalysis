@@ -1,0 +1,9 @@
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\bin\Debug\DataAnalysis.exe
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\bin\Debug\DataAnalysis.pdb
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.exe
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.pdb
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\UI.baml
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\UI.g.cs
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis_MarkupCompile.cache
+c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.g.resources
