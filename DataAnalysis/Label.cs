@@ -82,14 +82,14 @@ namespace DataAnalysis {
 				return false;
 			}
 
-			if (((Label)obj).ID == this.ID) {
+            if (((Label)obj).TextRepresentation == this.TextRepresentation) {
 				return true;
 			} else return false;
 		}
 
 		// override object.GetHashCode
 		public override int GetHashCode() {
-			return this.ID.GetHashCode();
+			return this.TextRepresentation.GetHashCode();
 		}
 	}
 }

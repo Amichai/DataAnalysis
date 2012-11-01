@@ -47,23 +47,38 @@ namespace DataAnalysis {
 			 */
 		}
 
-		public HeurisiticArray<int[][]> AccessElement(int at) {
-			var a = lines.ElementAt(at);
-			var label = a.Split(',').First();
-			var data = a.Split(',').Skip(1).Select(v => int.Parse(v));
-			int[][] inputData = new int[28][];
-			for (int i = 0; i < 28; i++) {
-				inputData[i] = new int[28];
-			}
+        public int[][] AccessElement(int at, out Label label) {
+            var a = lines.ElementAt(at);
+            label = new Label(a.Split(',').First());
+            var data = a.Split(',').Skip(1).Select(v => int.Parse(v));
+            int[][] inputData = new int[28][];
+            for (int i = 0; i < 28; i++) {
+                inputData[i] = new int[28];
+            }
 
-			for (int i = 0; i < data.Count(); i++) {
-				inputData[i / 28][i % 28] = data.ElementAt(i);
-			}
-			var set = new HeuristicSet<int[][]>("pixels", pixel => data, inputData);
-			var b = new HeurisiticArray<int[][]>(inputData);
-			b.AddLabel(new Label(label));
-			b.AddHeuristics(set);
-			return b;
-		}
+            for (int i = 0; i < data.Count(); i++) {
+                inputData[i / 28][i % 28] = data.ElementAt(i);
+            }
+            return inputData;
+        }
+
+        public HeurisiticArray<int[][]> AccessElement(int at) {
+            var a = lines.ElementAt(at);
+            var label = a.Split(',').First();
+            var data = a.Split(',').Skip(1).Select(v => int.Parse(v));
+            int[][] inputData = new int[28][];
+            for (int i = 0; i < 28; i++) {
+                inputData[i] = new int[28];
+            }
+
+            for (int i = 0; i < data.Count(); i++) {
+                inputData[i / 28][i % 28] = data.ElementAt(i);
+            }
+            var set = new HeuristicSet<int[][]>("pixels", pixel => data, inputData);
+            var b = new HeurisiticArray<int[][]>(inputData);
+            b.AddLabel(new Label(label));
+            b.AddHeuristics(set);
+            return b;
+        }
 	}
 }

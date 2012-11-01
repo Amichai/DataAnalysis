@@ -7,3 +7,22 @@ c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis
 c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\UI.g.cs
 c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis_MarkupCompile.cache
 c:\users\amichai\documents\visual studio 2010\Projects\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.g.resources
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.exe
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.pdb
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\DataAnalysis.exe
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\DataAnalysis.pdb
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.csprojResolveAssemblyReference.cache
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\obj\x86\Debug\UI.baml
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\obj\x86\Debug\UI.g.cs
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis_MarkupCompile.cache
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\obj\x86\Debug\DataAnalysis.g.resources
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\Accord.dll
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\Accord.Math.dll
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\Accord.Statistics.dll
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\AForge.dll
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\AForge.Math.dll
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\Accord.xml
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\Accord.Math.xml
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\Accord.Statistics.xml
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\AForge.xml
+C:\Users\Amichai\Documents\GitHub\DataAnalysis\DataAnalysis\bin\Debug\AForge.Math.xml

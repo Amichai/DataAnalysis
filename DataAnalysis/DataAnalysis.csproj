@@ -15,7 +15,7 @@
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -34,6 +34,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accord">
+      <HintPath>..\packages\Accord.2.7.0.0\lib\Accord.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Math">
+      <HintPath>..\packages\Accord.Math.2.7.0.0\lib\Accord.Math.dll</HintPath>
+    </Reference>
+    <Reference Include="Accord.Statistics">
+      <HintPath>..\packages\Accord.Statistics.2.7.0.0\lib\Accord.Statistics.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge">
+      <HintPath>..\packages\AForge.2.2.4\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Math">
+      <HintPath>..\packages\AForge.Math.2.2.4\lib\AForge.Math.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -48,6 +63,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Feature.cs" />
     <Compile Include="HeurisiticArray.cs" />
     <Compile Include="HeuristicIndicationArray.cs" />
     <Compile Include="HeuristicSet.cs" />
@@ -58,6 +74,7 @@
     <Compile Include="MatchNoMatch.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunningStats.cs" />
     <Compile Include="TrainingDataLibrary.cs" />
     <Compile Include="UI.xaml.cs">
       <DependentUpon>UI.xaml</DependentUpon>
@@ -68,6 +85,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
