@@ -151,7 +151,7 @@ namespace DataAnalysis {
         static List<Func<double, double, double>> operations = new List<Func<double, double, double>>() {
             (i, j) => i + j, //0
             //(i, j) => i * j,
-            //(i, j) => i - j, //2 
+            (i, j) => i - j, //2 
             //(i, j) => { if(j < .001) return 1000; else return i / j; },
             //(i, j) => { if(Math.Abs(j) < Math.Abs(i)) return j / i; else return i / j; },
            // (i, j) => Math.Max(i,j),

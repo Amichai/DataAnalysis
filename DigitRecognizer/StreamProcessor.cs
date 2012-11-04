@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DigitRecognizer {
-    class StreamProcessor {
+    public class StreamProcessor {
         public StreamProcessor(int width, int height) {
             this.Width = width;
             this.Height = height;
@@ -63,7 +63,7 @@ namespace DigitRecognizer {
             return result;
         }
 
-        internal void Train() {
+        public void Train() {
             foreach (var f in Features) {
                 f.Train(f.Eval, DataLabel);
             }
@@ -96,7 +96,7 @@ namespace DigitRecognizer {
             return preserveCounter;
         }
 
-        internal void PrintUtil(int thresholdIdx) {
+        public void PrintUtil(int thresholdIdx) {
             List<double> utils = new List<double>();
             foreach (var a in Features) {
                 double eval = a.TestUtility();

@@ -80,5 +80,17 @@ namespace DataAnalysis {
             b.AddHeuristics(set);
             return b;
         }
+
+        public IEnumerable<Tuple<int[][], Label>> AllElements() {
+            int i = 0;
+            Label l;
+            while (true) {
+                i = i % 25000;
+                if (i == 0) i++;
+                var a = AccessElement(i++, out l);
+                yield return new Tuple<int[][], Label>(a, l);
+
+            }
+        }
 	}
 }
