@@ -21,11 +21,18 @@ namespace GroundedLearning {
             return result;
         }
 
-        internal void Train(DetectedPoints r, Label label) {
+        internal void Train(DetectedPoints pts, Label label, TestResult result) {
             if (!library.ContainsKey(label)) {
-                library[label] = r;
+                library[label] = pts;
             } else {
-                return;
+                var baseVal = library[label].Compare(pts);
+                foreach (var a in library) {
+                    if (a.Key == label) continue;
+                    var a1 = a.Value.Compare(pts);
+                    if (a1 > baseVal) {
+                        a.Value.Sanitize(pts);
+                    }
+                }
             }
         }
     }

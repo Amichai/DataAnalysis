@@ -18,7 +18,7 @@ namespace DigitRecognizer {
         public void Add(Dictionary<Label, double> output) {
             foreach (var a in output) {
                 normalizationVal += a.Value;
-                if (double.IsNaN(normalizationVal)) {
+                if (double.IsNaN(normalizationVal) || double.IsInfinity(normalizationVal)) {
                 }
                 if (!outputLabels.ContainsKey(a.Key)) {
                     outputLabels[a.Key] = 0;
